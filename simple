@@ -4,7 +4,7 @@ pip install virtualenv
 virtualenv myenv  //create env 
 source myenv/bin/activate
 requirements.txt  //add code in this file
-sudo install -r requirements.txt
+pip install -r requirements.txt
 app.py      //add code in this file
 cd . .      //exit from directory
 gunicorn --bind 0.0.0.0:5000 app:app     //for backfround run
